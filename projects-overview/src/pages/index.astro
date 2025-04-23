@@ -1,5 +1,5 @@
 ---
-
+import Menu from "@components/Menu.astro";
 ---
 
 <html lang="en">
@@ -43,6 +43,9 @@
 		<!-- Main CSS File -->
 		<link href="./assets/css/main.css" rel="stylesheet" />
 
+		<!-- Style CSS File -->
+		<link href="./assets/css/style.css" rel="stylesheet" />
+
 		<!-- =======================================================
 		* Template Name: Selecao
 		* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
@@ -62,17 +65,7 @@
 					<h1 class="sitename">Grisha Angelov - GitHub Projects Overview</h1>
 				</a>
 
-				<nav id="navmenu" class="navmenu">
-					<ul>
-						<li><a href="#hero" class="active">Home</a></li>
-						<li>
-							<a href="https://github.com/GrishaAngelovGH" target="_blank"
-								>GitHub
-							</a>
-						</li>
-					</ul>
-					<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-				</nav>
+				<Menu />
 			</div>
 		</header>
 

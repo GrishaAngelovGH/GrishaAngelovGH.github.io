@@ -1,0 +1,5 @@
+.navmenu .dropdown ul {
+  border-radius: 5px;
+  max-height: 220px;
+  overflow: auto;
+}

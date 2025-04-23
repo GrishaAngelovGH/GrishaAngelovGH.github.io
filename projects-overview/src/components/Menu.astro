@@ -1,0 +1,28 @@
+---
+const menuItems = [{ label: "Kanban Board", href: "#kanban-board" }];
+---
+
+<nav id="navmenu" class="navmenu">
+  <ul>
+    <li><a href="#hero" class="active">Home</a></li>
+    <li>
+      <a href="https://github.com/GrishaAngelovGH" target="_blank">GitHub </a>
+    </li>
+    <li class="dropdown">
+      <a href="#">
+        <span>Projects ({menuItems.length})</span>
+        <i class="bi bi-chevron-down toggle-dropdown"></i>
+      </a>
+      <ul>
+        {
+          menuItems.map((v) => (
+            <li>
+              <a href={v.href}>{v.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </li>
+  </ul>
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
