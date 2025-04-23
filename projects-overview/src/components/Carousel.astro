@@ -1,0 +1,86 @@
+---
+const slides = [
+  {
+    title: "Project Title",
+    description: "Project Description",
+    anchorLink: "link-1",
+    gitHubLink: "link-2",
+    liveDemoLink: "link-3",
+  },
+];
+---
+
+<div
+  id="hero-carousel"
+  data-bs-interval="5000"
+  class="container carousel carousel-fade"
+  data-bs-ride="carousel"
+>
+  {
+    slides.map((v, i) => (
+      <div class={`carousel-item ${i === 0 ? "active" : ""}`}>
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">{v.title}</h2>
+          <div class="animate__animated animate__fadeInUp">
+            <p>{v.description}</p>
+            <p>
+              Read more detailed description about implemented features and used
+              technologies in the section below.
+            </p>
+          </div>
+
+          <div class="d-flex gap-5">
+            <a
+              href={v.anchorLink}
+              class="btn-get-started animate__animated animate__fadeInUp scrollto"
+            >
+              Read More
+            </a>
+            <a
+              href={v.gitHubLink}
+              target="_blank"
+              class="btn-get-started animate__animated animate__fadeInUp scrollto"
+            >
+              View on GitHub
+            </a>
+            {v.liveDemoLink && (
+              <a
+                href={v.liveDemoLink}
+                target="_blank"
+                class="btn-get-started animate__animated animate__fadeInUp scrollto"
+              >
+                Live Demo
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    ))
+  }
+
+  <a
+    class="carousel-control-prev"
+    href="#hero-carousel"
+    role="button"
+    data-bs-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon bi bi-chevron-left"
+      aria-hidden="true"
+    >
+    </span>
+  </a>
+
+  <a
+    class="carousel-control-next"
+    href="#hero-carousel"
+    role="button"
+    data-bs-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon bi bi-chevron-right"
+      aria-hidden="true"
+    >
+    </span>
+  </a>
+</div>
