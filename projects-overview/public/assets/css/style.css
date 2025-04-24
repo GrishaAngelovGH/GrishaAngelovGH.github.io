@@ -3,3 +3,17 @@
   max-height: 220px;
   overflow: auto;
 }
+
+.section-title img {
+  width: 700px;
+}
+
+@media screen and (max-width: 576px) {
+  .section-title img {
+    width: 400px;
+  }
+
+  .header .logo h1 {
+    font-size: 15px;
+  }
+}

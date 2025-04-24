@@ -1,0 +1,76 @@
+---
+import projects from "@projects";
+---
+
+<main class="main">
+  {
+    projects.map((project) => (
+      <section id={project.id} class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>{project.type}</h2>
+            <p>{project.title}</p>
+            <div class="d-flex flex-column">
+              <img src={project.image} class="align-self-center" />
+            </div>
+          </div>
+
+          <p class="mb-5">{project.description}</p>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                The front-end project is implementing the following features:
+              </p>
+              <ul>
+                {project.features.map((v) => {
+                  if (!v.items.length) {
+                    return (
+                      <li>
+                        <i class="ri-checkbox-circle-line" /> {v.content}
+                      </li>
+                    );
+                  }
+
+                  if (v.items.length) {
+                    return (
+                      <li class="d-flex flex-column align-items-start">
+                        <div>
+                          <i class="ri-checkbox-circle-line" /> {v.content}
+                        </div>
+                        <ul class="ms-4">
+                          {v.items.map((item) =>
+                            v.isHTMLString ? (
+                              <li>
+                                <i class="ri-radio-button-line" />{" "}
+                                <div set:html={item} />
+                              </li>
+                            ) : (
+                              <li>
+                                <i class="ri-radio-button-line" /> {item}
+                              </li>
+                            ),
+                          )}
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>The front-end project is using the following technologies:</p>
+              <ul>
+                {project.technologies.map((v) => (
+                  <li>
+                    <i class="ri-checkbox-circle-line" /> <span set:html={v} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    ))
+  }
+</main>
