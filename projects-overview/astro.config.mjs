@@ -8,7 +8,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@components': path.resolve('./src/components')
+        '@components': path.resolve('./src/components'),
+        '@projects': path.resolve('./src/projects'),
       }
     }
   }
