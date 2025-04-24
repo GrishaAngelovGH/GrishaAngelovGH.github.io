@@ -6,6 +6,7 @@
   border-radius: 5px;
   max-height: 220px;
   overflow: auto;
+  transform: translateX(-20%);
 }
 
 .section-title img {
