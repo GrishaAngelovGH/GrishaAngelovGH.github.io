@@ -19,9 +19,7 @@ import projects from "@projects";
 
           <div class="row content">
             <div class="col-lg-6">
-              <p>
-                The front-end project is implementing the following features:
-              </p>
+              <p>The project is implementing the following features:</p>
               <ul>
                 {project.features.map((v) => {
                   if (!v.items.length) {
@@ -59,13 +57,24 @@ import projects from "@projects";
               </ul>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
-              <p>The front-end project is using the following technologies:</p>
+              <p>The project is using the following technologies:</p>
               <ul>
-                {project.technologies.map((v) => (
-                  <li>
-                    <i class="ri-checkbox-circle-line" /> <span set:html={v} />
-                  </li>
-                ))}
+                {project.technologies.map((v) => {
+                  if (v.startsWith("label")) {
+                    return (
+                      <li>
+                        <span set:html={v.split(":")[1]} />
+                      </li>
+                    );
+                  }
+
+                  return (
+                    <li>
+                      <i class="ri-checkbox-circle-line" />{" "}
+                      <span set:html={v} />
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>

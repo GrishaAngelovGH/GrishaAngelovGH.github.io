@@ -10,6 +10,8 @@
 
 .section-title img {
   width: 700px;
+  height: 360px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 576px) {
