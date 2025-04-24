@@ -15,7 +15,7 @@ import projects from "@projects";
             </div>
           </div>
 
-          <p class="mb-5">{project.description}</p>
+          <div class="mb-5" set:html={project.description} />
 
           <div class="row content">
             <div class="col-lg-6">

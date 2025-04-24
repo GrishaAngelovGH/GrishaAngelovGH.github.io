@@ -1,20 +1,26 @@
+import type { Feature } from "@data-types/feature"
+
 export default {
   id: "kanban-board",
   type: "ReactJS Project",
   title: "Kanban Board",
   image: "./assets/img/multi-device-kanban-board.png",
   description: `
-    This front-end project is a comprehensive task management system designed to enhance 
-    collaboration and streamline workflows. It allows users to create and manage board, 
-    columns, and tasks with features like rich text descriptions, task prioritization, 
-    and dependency management. Collaboration is effortless with task assignment, 
-    visualization of all collaborators, and dynamic features like "Unassign Me" and 
-    "Leave Only Me." 
+    <div class="text-justify mb-2">
+      This front-end project is a comprehensive task management system designed to enhance 
+      collaboration and streamline workflows. It allows users to create and manage board, 
+      columns, and tasks with features like rich text descriptions, task prioritization, 
+      and dependency management. Collaboration is effortless with task assignment, 
+      visualization of all collaborators, and dynamic features like "Unassign Me" and 
+      "Leave Only Me." 
+    </div>
 
-    Customization and insights take center stage with options for personalized layouts, 
-    column styles, and backgrounds, along with dashboards and cards displaying task metrics, 
-    activity, and progress. Additional utilities include drag-and-drop functionality, 
-    keyboard shortcuts, export/import capabilities, and a history to restore deleted data.
+    <div class="text-justify mb-2">
+      Customization and insights take center stage with options for personalized layouts, 
+      column styles, and backgrounds, along with dashboards and cards displaying task metrics, 
+      activity, and progress. Additional utilities include drag-and-drop functionality, 
+      keyboard shortcuts, export/import capabilities, and a history to restore deleted data.
+    </div>
   `,
   features: [
     { content: "Auto-generate sample board", items: [] },
@@ -123,7 +129,7 @@ export default {
         `Press <kbd class="bg-primary">Ctrl</kbd> + <kbd class="bg-primary">L</kbd> to clear board`,
       ],
     },
-  ],
+  ] as Feature[],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,

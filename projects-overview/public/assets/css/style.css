@@ -1,3 +1,7 @@
+.text-justify {
+  text-align: justify;
+}
+
 .navmenu .dropdown ul {
   border-radius: 5px;
   max-height: 220px;
