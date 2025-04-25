@@ -24,17 +24,10 @@ export default {
   `,
   features: [
     { content: "Auto-generate sample board", items: [] },
-    {
-      content: "Create new column with title and optional description",
-      items: [],
-    },
+    { content: "Create new column with title and optional description", items: [] },
     { content: "Clear board", items: [] },
     { content: "Provide board title", items: [] },
-    {
-      content:
-        "Edit column's title and description based on editable text feature",
-      items: [],
-    },
+    { content: "Edit column's title and description based on editable text feature", items: [] },
     { content: "Reorder columns", items: [] },
     {
       content: "Create new task for given column",
@@ -45,34 +38,17 @@ export default {
       ],
     },
     { content: "Filter tasks by priority", items: [] },
-    {
-      content:
-        "Create predefined templates that could be used as descriptions for given tasks",
-      items: [],
-    },
+    { content: "Create predefined templates that could be used as descriptions for given tasks", items: [] },
     { content: "Manage dependency tasks", items: [] },
     { content: "Activate/deactivate a given task", items: [] },
     { content: "Group all templates in a dedicated column", items: [] },
-    {
-      content: "Visualize number of tasks for a given column",
-      items: [],
-    },
-    {
-      content: "Visualize progress (active tasks) for a given column",
-      items: [],
-    },
-    {
-      content:
-        "Mark/unmark column as 'done' i.e. all tasks in the column will be visualized as completed",
-      items: [],
-    },
+    { content: "Visualize number of tasks for a given column", items: [] },
+    { content: "Visualize progress (active tasks) for a given column", items: [] },
+    { content: "Mark/unmark column as 'done' i.e. all tasks in the column will be visualized as completed", items: [] },
     { content: "Delete column", items: [] },
     { content: "Delete all tasks for a given column", items: [] },
     { content: "Clear all columns without a tasks", items: [] },
-    {
-      content: "Provide optional limit of tasks for a given column",
-      items: [],
-    },
+    { content: "Provide optional limit of tasks for a given column", items: [] },
     { content: "Delete task", items: [] },
     { content: "Assign users to a given task", items: [] },
     { content: "Auto-assign users to a given task", items: [] },
@@ -88,10 +64,7 @@ export default {
     },
     { content: "Edit task", items: [] },
     { content: "Move tasks between columns with drag & drop", items: [] },
-    {
-      content: "Change the position of a task in a given column",
-      items: [],
-    },
+    { content: "Change the position of a task in a given column", items: [] },
     { content: "Toggle fullscreen view", items: [] },
     { content: "Visualize calendar", items: [] },
     { content: "Export/import board as JSON", items: [] },
@@ -107,10 +80,8 @@ export default {
       ],
     },
     {
-      content:
-        "Visualize history that stores deleted data when performing column/task deletion",
-
-      items: ["restore/delete columns and tasks"],
+      content: "Visualize history that stores deleted data when performing column/task deletion",
+      items: ["restore/delete columns and tasks"]
     },
     {
       content: "Customize settings",

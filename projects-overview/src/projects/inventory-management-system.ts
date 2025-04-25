@@ -41,7 +41,8 @@ export default {
       ]
     },
     {
-      content: "Sales Management", items: [
+      content: "Sales Management",
+      items: [
         "Add new sale for a given product (name, selling price, quantity and date)",
         "Visualization of all sales",
         "Undo sale",
@@ -52,6 +53,7 @@ export default {
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
+    `Integrated <span class="fw-bold">Tailwind CSS</span>`,
     `Integrated <span class="fw-bold">flowbite-react</span>`,
     `Integrated <span class="fw-bold">react-to-pdf</span>`,
   ]

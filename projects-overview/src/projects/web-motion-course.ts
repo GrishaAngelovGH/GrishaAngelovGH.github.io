@@ -22,63 +22,25 @@ export default {
     </div>
   `,
   features: [
-    {
-      content: "Product feature with video", items: []
-    },
-    {
-      content: "Hero section with video background", items: []
-    },
-    {
-      content: "Website header with transition", items: []
-    },
-    {
-      content: "Dropdown menu with transitions", items: []
-    },
-    {
-      content: "Image gallery with transitions", items: []
-    },
-    {
-      content: "Image accordion with transitions", items: []
-    },
-    {
-      content: "Loading screen with animation", items: []
-    },
-    {
-      content: "Site preloader with animation", items: []
-    },
-    {
-      content: "SVG text loader with animation", items: []
-    },
-    {
-      content: "Button with animated loading dots", items: []
-    },
-    {
-      content: "Animated Lottie icon", items: []
-    },
-    {
-      content: "Animated menu icon", items: []
-    },
-    {
-      content: "Animated illustration", items: []
-    },
-    {
-      content: "Animated avatars", items: []
-    },
-    {
-      content: "Animated logo", items: []
-    },
-    {
-      content: "Typewriter effect", items: []
-    },
-    {
-      content: "Mouse follow effect", items: []
-    },
-    {
-      content: "Scroll-triggered animation", items: []
-    },
-    {
-      content: "Parallax animation", items: []
-    }
+    { content: "Product feature with video", items: [] },
+    { content: "Hero section with video background", items: [] },
+    { content: "Website header with transition", items: [] },
+    { content: "Dropdown menu with transitions", items: [] },
+    { content: "Image gallery with transitions", items: [] },
+    { content: "Image accordion with transitions", items: [] },
+    { content: "Loading screen with animation", items: [] },
+    { content: "Site preloader with animation", items: [] },
+    { content: "SVG text loader with animation", items: [] },
+    { content: "Button with animated loading dots", items: [] },
+    { content: "Animated Lottie icon", items: [] },
+    { content: "Animated menu icon", items: [] },
+    { content: "Animated illustration", items: [] },
+    { content: "Animated avatars", items: [] },
+    { content: "Animated logo", items: [] },
+    { content: "Typewriter effect", items: [] },
+    { content: "Mouse follow effect", items: [] },
+    { content: "Scroll-triggered animation", items: [] },
+    { content: "Parallax animation", items: [] }
   ] as Feature[],
   technologies: [
     `Used <span class="fw-bold">HTML</span>`,
