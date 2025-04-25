@@ -6,6 +6,7 @@ import webMotionCourse from "./web-motion-course"
 import framerMotionMovieCatalog from "./framer-motion-movie-catalog"
 import machineLearningExploration from "./machine-learning-exploration"
 import reactTensorflowQna from "./react-tensorflow-qna"
+import algorithmVisualizer from "./algorithm-visualizer"
 
 export default [
   kanbanBoard,
@@ -15,5 +16,6 @@ export default [
   jwtAuthAndAuthz,
   webMotionCourse,
   machineLearningExploration,
-  reactTensorflowQna
+  reactTensorflowQna,
+  algorithmVisualizer
 ]
