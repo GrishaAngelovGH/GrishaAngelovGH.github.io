@@ -4,6 +4,7 @@ import inventoryManagementSystem from "./inventory-management-system"
 import jwtAuthAndAuthz from "./jwt-auth-and-authz"
 import webMotionCourse from "./web-motion-course"
 import framerMotionMovieCatalog from "./framer-motion-movie-catalog"
+import machineLearningExploration from "./machine-learning-exploration"
 
 export default [
   kanbanBoard,
@@ -11,5 +12,6 @@ export default [
   inventoryManagementSystem,
   framerMotionMovieCatalog,
   jwtAuthAndAuthz,
-  webMotionCourse
+  webMotionCourse,
+  machineLearningExploration
 ]
