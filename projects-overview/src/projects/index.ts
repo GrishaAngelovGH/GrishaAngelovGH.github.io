@@ -7,6 +7,7 @@ import framerMotionMovieCatalog from "./framer-motion-movie-catalog"
 import machineLearningExploration from "./machine-learning-exploration"
 import reactTensorflowQna from "./react-tensorflow-qna"
 import algorithmVisualizer from "./algorithm-visualizer"
+import voiceToMap from "./voice-to-map"
 
 export default [
   kanbanBoard,
@@ -17,5 +18,6 @@ export default [
   webMotionCourse,
   machineLearningExploration,
   reactTensorflowQna,
-  algorithmVisualizer
+  algorithmVisualizer,
+  voiceToMap
 ]
