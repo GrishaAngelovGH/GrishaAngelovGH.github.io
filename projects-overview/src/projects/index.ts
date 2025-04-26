@@ -11,6 +11,7 @@ import voiceToMap from "./voice-to-map"
 import groceryStore from "./grocery-store"
 import handwrittenDigitRecognition from "./handwritten-digit-recognition"
 import astrojsSsrBlog from "./astrojs-ssr-blog"
+import bookListGraphqlApp from "./book-list-graphql-app"
 
 export default [
   kanbanBoard,
@@ -25,5 +26,6 @@ export default [
   voiceToMap,
   groceryStore,
   handwrittenDigitRecognition,
-  astrojsSsrBlog
+  astrojsSsrBlog,
+  bookListGraphqlApp
 ]

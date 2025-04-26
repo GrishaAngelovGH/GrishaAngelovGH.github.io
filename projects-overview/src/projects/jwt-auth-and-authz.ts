@@ -4,7 +4,7 @@ export default {
   id: "jwt-auth-and-authz",
   type: "NodeJS/ReactJS Project",
   title: "JWT Authentication and Authorization App",
-  image: "./assets/img/device.png",
+  image: "./assets/img/device-jwt-auth-and-authz.png",
   description: `
     <div class="text-justify mb-2">
       This project is a full-stack implementation of a secure system for 
@@ -20,7 +20,7 @@ export default {
   `,
   features: [
     {
-      content: "Server",
+      content: "Backend",
       items: [
         "Validate user credentials on Login",
         "Create new JWT on successful user credentials validation",
@@ -28,7 +28,7 @@ export default {
       ]
     },
     {
-      content: "Client",
+      content: "Frontend",
       items: [
         "Publicly accessible login page",
         "JWT-protected client-side routes",
@@ -38,13 +38,13 @@ export default {
     }
   ] as Feature[],
   technologies: [
-    `label:Server`,
+    `label:Backend`,
     `The server is based on <span class="fw-bold">NodeJS</span>`,
     `Integrated <span class="fw-bold">body-parser</span>`,
     `Integrated <span class="fw-bold">cors</span>`,
     `Integrated <span class="fw-bold">express</span>`,
     `Integrated <span class="fw-bold">jsonwebtoken</span>`,
-    `label:Client`,
+    `label:Frontend`,
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
     `Integrated <span class="fw-bold">react-router-dom</span>`,
