@@ -12,6 +12,7 @@ import groceryStore from "./grocery-store"
 import handwrittenDigitRecognition from "./handwritten-digit-recognition"
 import astrojsSsrBlog from "./astrojs-ssr-blog"
 import bookListGraphqlApp from "./book-list-graphql-app"
+import zustandApp from "./zustand-app"
 
 export default [
   kanbanBoard,
@@ -27,5 +28,6 @@ export default [
   groceryStore,
   handwrittenDigitRecognition,
   astrojsSsrBlog,
-  bookListGraphqlApp
+  bookListGraphqlApp,
+  zustandApp
 ]
