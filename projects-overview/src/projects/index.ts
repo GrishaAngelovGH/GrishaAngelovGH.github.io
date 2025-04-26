@@ -13,6 +13,7 @@ import handwrittenDigitRecognition from "./handwritten-digit-recognition"
 import astrojsSsrBlog from "./astrojs-ssr-blog"
 import bookListGraphqlApp from "./book-list-graphql-app"
 import zustandApp from "./zustand-app"
+import infiniteScrollItemList from "./infinite-scroll-item-list"
 
 export default [
   kanbanBoard,
@@ -29,5 +30,6 @@ export default [
   handwrittenDigitRecognition,
   astrojsSsrBlog,
   bookListGraphqlApp,
+  infiniteScrollItemList,
   zustandApp
 ]
