@@ -8,6 +8,7 @@ import machineLearningExploration from "./machine-learning-exploration"
 import reactTensorflowQna from "./react-tensorflow-qna"
 import algorithmVisualizer from "./algorithm-visualizer"
 import voiceToMap from "./voice-to-map"
+import groceryStore from "./grocery-store"
 
 export default [
   kanbanBoard,
@@ -19,5 +20,6 @@ export default [
   machineLearningExploration,
   reactTensorflowQna,
   algorithmVisualizer,
-  voiceToMap
+  voiceToMap,
+  groceryStore
 ]
