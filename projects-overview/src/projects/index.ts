@@ -10,6 +10,7 @@ import algorithmVisualizer from "./algorithm-visualizer"
 import voiceToMap from "./voice-to-map"
 import groceryStore from "./grocery-store"
 import handwrittenDigitRecognition from "./handwritten-digit-recognition"
+import astrojsSsrBlog from "./astrojs-ssr-blog"
 
 export default [
   kanbanBoard,
@@ -23,5 +24,6 @@ export default [
   algorithmVisualizer,
   voiceToMap,
   groceryStore,
-  handwrittenDigitRecognition
+  handwrittenDigitRecognition,
+  astrojsSsrBlog
 ]

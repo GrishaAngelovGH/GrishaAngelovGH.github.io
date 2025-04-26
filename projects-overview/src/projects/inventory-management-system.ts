@@ -53,7 +53,7 @@ export default {
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
-    `Integrated <span class="fw-bold">Tailwind CSS</span>`,
+    `Integrated <span class="fw-bold">tailwind css</span>`,
     `Integrated <span class="fw-bold">flowbite-react</span>`,
     `Integrated <span class="fw-bold">react-to-pdf</span>`,
   ]

@@ -36,7 +36,7 @@ export default {
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
-    `Integrated <span class="fw-bold">Tailwind CSS</span>`,
+    `Integrated <span class="fw-bold">tailwind css</span>`,
     `Integrated <span class="fw-bold">framer-motion</span>`,
     `Integrated <span class="fw-bold">fast-average-color</span>`,
     `Integrated <span class="fw-bold">react-responsive-carousel</span>`
