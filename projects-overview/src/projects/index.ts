@@ -9,6 +9,7 @@ import reactTensorflowQna from "./react-tensorflow-qna"
 import algorithmVisualizer from "./algorithm-visualizer"
 import voiceToMap from "./voice-to-map"
 import groceryStore from "./grocery-store"
+import handwrittenDigitRecognition from "./handwritten-digit-recognition"
 
 export default [
   kanbanBoard,
@@ -21,5 +22,6 @@ export default [
   reactTensorflowQna,
   algorithmVisualizer,
   voiceToMap,
-  groceryStore
+  groceryStore,
+  handwrittenDigitRecognition
 ]
