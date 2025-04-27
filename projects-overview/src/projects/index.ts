@@ -15,6 +15,7 @@ import bookListGraphqlApp from "./book-list-graphql-app"
 import zustandApp from "./zustand-app"
 import infiniteScrollItemList from "./infinite-scroll-item-list"
 import reactAdminDashboard from "./react-admin-dashboard"
+import rtkQueryStockApp from "./rtk-query-stock-app"
 
 export default [
   kanbanBoard,
@@ -33,5 +34,6 @@ export default [
   bookListGraphqlApp,
   infiniteScrollItemList,
   zustandApp,
-  reactAdminDashboard
+  reactAdminDashboard,
+  rtkQueryStockApp
 ]
