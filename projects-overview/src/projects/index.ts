@@ -14,6 +14,7 @@ import astrojsSsrBlog from "./astrojs-ssr-blog"
 import bookListGraphqlApp from "./book-list-graphql-app"
 import zustandApp from "./zustand-app"
 import infiniteScrollItemList from "./infinite-scroll-item-list"
+import reactAdminDashboard from "./react-admin-dashboard"
 
 export default [
   kanbanBoard,
@@ -31,5 +32,6 @@ export default [
   astrojsSsrBlog,
   bookListGraphqlApp,
   infiniteScrollItemList,
-  zustandApp
+  zustandApp,
+  reactAdminDashboard
 ]
