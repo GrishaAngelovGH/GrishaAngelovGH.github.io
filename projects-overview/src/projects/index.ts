@@ -17,6 +17,7 @@ import infiniteScrollItemList from "./infinite-scroll-item-list"
 import reactAdminDashboard from "./react-admin-dashboard"
 import rtkQueryStockApp from "./rtk-query-stock-app"
 import curatedListOfLatestTrends from "./curated-list-of-latest-trends"
+import pairsAndTensGame from "./pairs-and-tens-game"
 
 export default [
   kanbanBoard,
@@ -37,5 +38,6 @@ export default [
   zustandApp,
   reactAdminDashboard,
   rtkQueryStockApp,
-  curatedListOfLatestTrends
+  curatedListOfLatestTrends,
+  pairsAndTensGame
 ]
