@@ -18,6 +18,7 @@ import reactAdminDashboard from "./react-admin-dashboard"
 import rtkQueryStockApp from "./rtk-query-stock-app"
 import curatedListOfLatestTrends from "./curated-list-of-latest-trends"
 import pairsAndTensGame from "./pairs-and-tens-game"
+import wordy from "./wordy"
 
 export default [
   kanbanBoard,
@@ -39,5 +40,6 @@ export default [
   reactAdminDashboard,
   rtkQueryStockApp,
   curatedListOfLatestTrends,
-  pairsAndTensGame
+  pairsAndTensGame,
+  wordy
 ]
