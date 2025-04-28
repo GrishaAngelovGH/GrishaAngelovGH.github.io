@@ -19,6 +19,7 @@ import rtkQueryStockApp from "./rtk-query-stock-app"
 import curatedListOfLatestTrends from "./curated-list-of-latest-trends"
 import pairsAndTensGame from "./pairs-and-tens-game"
 import wordy from "./wordy"
+import dashboardUi from "./dashboard-ui"
 
 export default [
   kanbanBoard,
@@ -41,5 +42,6 @@ export default [
   rtkQueryStockApp,
   curatedListOfLatestTrends,
   pairsAndTensGame,
-  wordy
+  wordy,
+  dashboardUi
 ]
