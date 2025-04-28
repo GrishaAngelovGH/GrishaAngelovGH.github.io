@@ -20,6 +20,7 @@ import curatedListOfLatestTrends from "./curated-list-of-latest-trends"
 import pairsAndTensGame from "./pairs-and-tens-game"
 import wordy from "./wordy"
 import dashboardUi from "./dashboard-ui"
+import premierLeagueUi from "./premier-league-ui"
 
 export default [
   kanbanBoard,
@@ -43,5 +44,6 @@ export default [
   curatedListOfLatestTrends,
   pairsAndTensGame,
   wordy,
-  dashboardUi
+  dashboardUi,
+  premierLeagueUi
 ]
