@@ -21,6 +21,7 @@ import pairsAndTensGame from "./pairs-and-tens-game"
 import wordy from "./wordy"
 import dashboardUi from "./dashboard-ui"
 import premierLeagueUi from "./premier-league-ui"
+import conversationIntelligence from "./conversation-intelligence"
 
 export default [
   kanbanBoard,
@@ -45,5 +46,6 @@ export default [
   pairsAndTensGame,
   wordy,
   dashboardUi,
-  premierLeagueUi
+  premierLeagueUi,
+  conversationIntelligence
 ]
