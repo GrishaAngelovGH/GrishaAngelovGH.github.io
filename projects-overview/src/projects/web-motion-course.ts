@@ -2,7 +2,7 @@ import type { Feature } from "@data-types/feature"
 
 export default {
   id: "web-motion-course",
-  type: "HTML/CSS/JavaScript",
+  type: "HTML/CSS/JavaScript Project",
   title: "Motion Design for the Web Course",
   image: "./assets/img/device.png",
   description: `
