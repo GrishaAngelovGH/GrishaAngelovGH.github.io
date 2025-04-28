@@ -1,0 +1,19 @@
+import type { Feature } from "@data-types/feature"
+
+export default {
+  id: "responsive-landing-pages",
+  type: "HTML/Tailwind CSS Project",
+  title: "Tailwind CSS Responsive Landing Pages",
+  image: "./assets/img/multi-device-responsive-landing-pages.png",
+  description: `
+    <div class="text-justify">
+      A collection of multiple responsive landing pages created with Tailwind CSS.
+    </div>
+  `,
+  features: [
+    { content: "Visualization of multiple responsive landing pages", items: [] },
+  ] as Feature[],
+  technologies: [
+    `Used <span class="fw-bold">tailwind css</span>`,
+  ]
+}

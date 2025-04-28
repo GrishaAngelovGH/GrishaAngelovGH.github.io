@@ -22,6 +22,7 @@ import wordy from "./wordy"
 import dashboardUi from "./dashboard-ui"
 import premierLeagueUi from "./premier-league-ui"
 import conversationIntelligence from "./conversation-intelligence"
+import responsiveLandingPages from "./responsive-landing-pages"
 
 export default [
   kanbanBoard,
@@ -47,5 +48,6 @@ export default [
   wordy,
   dashboardUi,
   premierLeagueUi,
-  conversationIntelligence
+  conversationIntelligence,
+  responsiveLandingPages
 ]
