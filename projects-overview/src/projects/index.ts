@@ -25,6 +25,7 @@ import conversationIntelligence from "./conversation-intelligence"
 import responsiveLandingPages from "./responsive-landing-pages"
 import chartJsCarousel from "./chart-js-carousel"
 import designPatterns from "./design-patterns"
+import dataStructures from "./data-structures"
 
 export default [
   kanbanBoard,
@@ -53,5 +54,6 @@ export default [
   conversationIntelligence,
   responsiveLandingPages,
   chartJsCarousel,
-  designPatterns
+  designPatterns,
+  dataStructures
 ]
