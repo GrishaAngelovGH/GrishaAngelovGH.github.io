@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "data-structures",
@@ -23,8 +23,9 @@ export default {
         "BinaryTree",
       ]
     }
-  ] as Feature[],
+  ],
   technologies: [
     `Used <span class="fw-bold">JavaScript</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/data-structures-in-javascript",
+} as Project

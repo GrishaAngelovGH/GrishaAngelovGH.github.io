@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "jwt-auth-and-authz",
@@ -36,7 +36,7 @@ export default {
         "Fetch data from the JWT-protected endpoint"
       ]
     }
-  ] as Feature[],
+  ],
   technologies: [
     `label:Backend`,
     `The server is based on <span class="fw-bold">NodeJS</span>`,
@@ -49,5 +49,6 @@ export default {
     `Integrated <span class="fw-bold">ReactJS</span>`,
     `Integrated <span class="fw-bold">react-router-dom</span>`,
     `Integrated <span class="fw-bold">jwt-decode</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/jwt-auth-and-authz-demo",
+} as Project

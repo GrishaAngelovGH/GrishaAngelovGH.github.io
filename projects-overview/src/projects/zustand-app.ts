@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "zustand-item-list-app",
@@ -20,7 +20,7 @@ export default {
     { content: "Implemented functionality to increase or decrease item quantities", items: [] },
     { content: "Implemented functionality to mark or unmark a given item", items: [] },
     { content: "All data is persistently stored", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -28,5 +28,6 @@ export default {
     `Integrated <span class="fw-bold">zustand</span>`,
     `Integrated <span class="fw-bold">axios</span>`,
     `Integrated <span class="fw-bold">axios-mock-adapter</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/Zustand-App",
+} as Project

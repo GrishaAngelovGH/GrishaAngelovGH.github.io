@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "infinite-scroll-item-list",
@@ -18,7 +18,7 @@ export default {
     { content: "Implemented the ability to preview details of each product item", items: [] },
     { content: "Implemented a feature to bookmark product items as favorites", items: [] },
     { content: "Implemented functionality to apply filters to favorite product items", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -29,5 +29,7 @@ export default {
     `Integrated <span class="fw-bold">axios-mock-adapter</span>`,
     `Integrated <span class="fw-bold">react-redux</span>`,
     `Integrated <span class="fw-bold">@reduxjs/toolkit</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/infinite-scroll-item-list",
+  liveDemoLink: "https://infinite-scroll-item-list-grishaangelovs-projects.vercel.app/",
+} as Project

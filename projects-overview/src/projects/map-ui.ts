@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "map-ui",
@@ -37,7 +37,7 @@ export default {
       ]
     },
     { content: "Visualization of StreetView (Mapillary)", items: [] }
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -50,5 +50,7 @@ export default {
     `Integrated <span class="fw-bold">leaflet.motion</span>`,
     `Integrated <span class="fw-bold">mapillary-js</span>`,
     `Integrated <span class="fw-bold">scss</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/map-ui",
+  liveDemoLink: "https://map-ui-grishaangelovs-projects.vercel.app/",
+} as Project

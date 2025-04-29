@@ -9,7 +9,20 @@
   transform: translateX(-26%);
 }
 
-.section-title img {
+.border-orange {
+  border: 2px solid #ef6603;
+}
+
+.link-button {
+  width: 135px;
+}
+
+.link-button:hover {
+  background: #ef6603;
+  color: #fff;
+}
+
+.device-img {
   width: 700px;
   height: 360px;
   object-fit: contain;
@@ -20,7 +33,7 @@
 }
 
 @media screen and (max-width: 576px) {
-  .section-title img {
+  .section-title img:first-child {
     width: 400px;
   }
 

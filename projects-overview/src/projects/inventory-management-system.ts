@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "inventory-management-system",
@@ -49,12 +49,14 @@ export default {
         "Download sales report as a PDF file"
       ]
     }
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
     `Integrated <span class="fw-bold">tailwind css</span>`,
     `Integrated <span class="fw-bold">flowbite-react</span>`,
     `Integrated <span class="fw-bold">react-to-pdf</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/inventory-management-system",
+  liveDemoLink: "https://inventory-management-system-grishaangelovs-projects.vercel.app/",
+} as Project

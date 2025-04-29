@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "dashboard-ui",
@@ -29,7 +29,7 @@ export default {
         "Market Summary"
       ]
     },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -40,5 +40,7 @@ export default {
     `Integrated <span class="fw-bold">chart.js</span>`,
     `Integrated <span class="fw-bold">react-chartjs-2</span>`,
     `Integrated <span class="fw-bold">react-awesome-reveal</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/dashboard-ui",
+  liveDemoLink: "https://dashboard-ui-grishaangelovs-projects.vercel.app/",
+} as Project

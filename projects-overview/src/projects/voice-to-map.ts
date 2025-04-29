@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "voice-to-map-visualization",
@@ -22,7 +22,7 @@ export default {
   `,
   features: [
     { content: "Visualization of geographical locations on a map based on user voice input", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -34,5 +34,7 @@ export default {
     `Integrated <span class="fw-bold">axios</span>`,
     `Integrated <span class="fw-bold">react-leaflet</span>`,
     `Integrated <span class="fw-bold">react-toastify</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/voice-to-map",
+  liveDemoLink: "https://voice-to-map-grishaangelovs-projects.vercel.app/",
+} as Project

@@ -11,7 +11,26 @@ import projects from "@projects";
             <h2>{project.type}</h2>
             <p>{project.title}</p>
             <div class="d-flex flex-column">
-              <img src={project.image} class="align-self-center" />
+              <img src={project.image} class="device-img align-self-center" />
+            </div>
+            <div class="mt-5 d-flex justify-content-center gap-5">
+              <a
+                href={project.gitHubLink}
+                class="d-flex justify-content-center align-items-center border-orange rounded p-2 link-button"
+              >
+                <img src="./assets/img/github.png" width="40" height="40" />{" "}
+                GitHub
+              </a>
+
+              {project.liveDemoLink && (
+                <a
+                  href={project.liveDemoLink}
+                  class="d-flex justify-content-center align-items-center border-orange rounded p-2 link-button"
+                >
+                  <img src="./assets/img/desktop.png" width="40" height="40" />{" "}
+                  Live Demo
+                </a>
+              )}
             </div>
           </div>
 

@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "responsive-landing-pages",
@@ -12,8 +12,9 @@ export default {
   `,
   features: [
     { content: "Visualization of multiple responsive landing pages", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Used <span class="fw-bold">tailwind css</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/responsive-landing-pages",
+} as Project

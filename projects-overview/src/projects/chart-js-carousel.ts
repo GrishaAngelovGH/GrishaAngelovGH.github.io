@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "chart-js-carousel",
@@ -28,10 +28,11 @@ export default {
         "Radar Chart"
       ]
     },
-  ] as Feature[],
+  ],
   technologies: [
     `Integrated <span class="fw-bold">chart.js</span>`,
     `Integrated <span class="fw-bold">swiper</span>`,
     `Integrated <span class="fw-bold">parcel</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/chart-js-carousel",
+} as Project

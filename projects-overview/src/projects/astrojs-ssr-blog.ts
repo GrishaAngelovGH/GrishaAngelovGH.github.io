@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "astrojs-ssr-blog",
@@ -17,12 +17,13 @@ export default {
     { content: "Implemented visualization of all articles", items: [] },
     { content: "Implemented visualization of the content of the articles", items: [] },
     { content: "Implemented filtering of articles by title or hashtag", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">create astro setup wizard</span>`,
     `Integrated <span class="fw-bold">astro</span>`,
     `Integrated <span class="fw-bold">flowbite</span>`,
     `Integrated <span class="fw-bold">tailwind css</span>`,
     `Integrated <span class="fw-bold">typescript</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/astrojs-ssr-blog",
+} as Project

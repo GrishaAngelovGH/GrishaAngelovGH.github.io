@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "book-list-graphql-app",
@@ -101,7 +101,7 @@ export default {
         "Implemented functionality to delete a given book"
       ]
     }
-  ] as Feature[],
+  ],
   technologies: [
     `label:Backend`,
     `The server is based on <span class="fw-bold">NodeJS</span>`,
@@ -115,5 +115,6 @@ export default {
     `Integrated <span class="fw-bold">react-bootstrap</span>`,
     `Integrated <span class="fw-bold">@apollo/client</span>`,
     `Integrated <span class="fw-bold">graphql</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/graphql-app",
+} as Project

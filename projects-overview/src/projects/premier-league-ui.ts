@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "premier-league-ui",
@@ -20,11 +20,13 @@ export default {
     { content: "Standings Page visualizing table with all clubs with additional statistic", items: [] },
     { content: "Stats Page visualizing top player stats", items: [] },
     { content: "Players Page visualizing various details such as player's name, team, position and goals for this season", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
     `Integrated <span class="fw-bold">react-router-dom</span>`,
     `Integrated <span class="fw-bold">tailwind css</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/premier-league-ui",
+  liveDemoLink: "https://premier-league-ui-grishaangelovs-projects.vercel.app/",
+} as Project
