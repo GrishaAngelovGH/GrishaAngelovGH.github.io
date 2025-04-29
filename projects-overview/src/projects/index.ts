@@ -27,6 +27,7 @@ import chartJsCarousel from "./chart-js-carousel"
 import designPatterns from "./design-patterns"
 import dataStructures from "./data-structures"
 import refactoringCodeKatas from "./refactoring-code-katas"
+import leetcode100AlgorithmsChallenge from "./leetcode-100-algorithms-challenge"
 
 export default [
   kanbanBoard,
@@ -57,5 +58,6 @@ export default [
   chartJsCarousel,
   designPatterns,
   dataStructures,
-  refactoringCodeKatas
+  refactoringCodeKatas,
+  leetcode100AlgorithmsChallenge
 ]
