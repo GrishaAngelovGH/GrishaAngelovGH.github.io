@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "ecommerce-store",
@@ -29,7 +29,7 @@ export default {
     { content: "Increment or decrement the quantity of given item", items: [] },
     { content: "Remove given item from shopping bag", items: [] },
     { content: "Perform the following steps in checkout process to complete order", items: ["Billing", "Shipping", "Payment", "Preview"] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">create-react-app</span>`,
     `Integrated <span class="fw-bold">ReactJS 17</span>`,
@@ -59,5 +59,7 @@ export default {
     `Integrated <span class="fw-bold">chai</span>`,
     `Integrated <span class="fw-bold">enzyme</span>`,
     `Integrated <span class="fw-bold">cypress.io</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/grocery-store",
+  liveDemoLink: "https://grocery-store-grishaangelovs-projects.vercel.app/",
+} as Project

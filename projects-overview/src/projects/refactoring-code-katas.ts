@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "refactoring-code-katas",
@@ -12,8 +12,9 @@ export default {
   `,
   features: [
     { content: "Developed a collection of code katas designed to practice and improve refactoring skills", items: [] }
-  ] as Feature[],
+  ],
   technologies: [
     `Used <span class="fw-bold">JavaScript and TypeScript</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/Refactoring-Code-Katas",
+} as Project

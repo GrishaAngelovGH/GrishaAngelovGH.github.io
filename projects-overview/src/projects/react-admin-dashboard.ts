@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "react-admin-dashboard",
@@ -38,7 +38,7 @@ export default {
       content: "Thematic and Customizable Layout",
       items: ["Uses a custom Layout component for consistent branding and navigation"]
     }
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">create-react-admin</span> to quickly bootstrap a react-admin project using vite`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -51,5 +51,6 @@ export default {
     `Integrated <span class="fw-bold">@emotion/styled</span>`,
     `Integrated <span class="fw-bold">@mui/icons-material</span>`,
     `Integrated <span class="fw-bold">@mui/material</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/react-admin-dashboard",
+} as Project

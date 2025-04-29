@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "wordy",
@@ -20,11 +20,13 @@ export default {
     { content: "Visualized a virtual keyboard or compatibility with physical keyboards to allow easy input", items: [] },
     { content: "Visualized a dynamic color feedback to the on-screen keyboard, visually indicating the status of each letter based on the player's guesses", items: [] },
     { content: "Visualized a button to restart the game, allowing players to try again", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
     `Integrated <span class="fw-bold">bootstrap</span>`,
     `Integrated <span class="fw-bold">react-bootstrap</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/wordy",
+  liveDemoLink: "https://wordy-grishaangelovs-projects.vercel.app/",
+} as Project

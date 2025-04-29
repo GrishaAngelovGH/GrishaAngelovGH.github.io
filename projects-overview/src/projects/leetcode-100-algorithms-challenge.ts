@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "leetcode-100-algorithms-challenge",
@@ -13,8 +13,9 @@ export default {
   `,
   features: [
     { content: "A collection of 100 solved algorithms provided by LeetCode", items: [] }
-  ] as Feature[],
+  ],
   technologies: [
     `Used <span class="fw-bold">JavaScript</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/LeetCode-100-algorithms-challenge",
+} as Project

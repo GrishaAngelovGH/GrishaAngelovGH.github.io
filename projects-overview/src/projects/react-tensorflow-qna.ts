@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "react-tensorflow-qna",
@@ -15,7 +15,7 @@ export default {
   `,
   features: [
     { content: "Conversation-like interaction with TensorflowJS environment", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -25,5 +25,6 @@ export default {
     `Integrated <span class="fw-bold">react-bootstrap</span>`,
     `Integrated <span class="fw-bold">@tensorflow/tfjs</span>`,
     `Integrated <span class="fw-bold">@tensorflow-models/qna</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/react-tensorflow-qna",
+} as Project

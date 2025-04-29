@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "conversation-intelligence-platform",
@@ -18,7 +18,7 @@ export default {
     { content: "Visualized team insights panel", items: [] },
     { content: "Visualized transcript summary of conversation", items: [] },
     { content: "Visualized seller details including insights and call history", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -29,5 +29,7 @@ export default {
     `Integrated <span class="fw-bold">canvas</span>`,
     `Integrated <span class="fw-bold">react-chartjs-2</span>`,
     `Integrated <span class="fw-bold">react-pro-sidebar</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/conversation-intelligence",
+  liveDemoLink: "https://conversation-intelligence-grishaangelovs-projects.vercel.app/",
+} as Project

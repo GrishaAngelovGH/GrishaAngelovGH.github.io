@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "curated-list-of-latest-trends",
@@ -15,11 +15,13 @@ export default {
       content: "The resources are separated in the following categories:",
       items: ["YouTube", "Blogs & Articles", "GitHub", "Podcasts", "Online Courses", "Developer Surveys", "X (ex-twitter) accounts"]
     },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">create astro setup wizard</span>`,
     `Integrated <span class="fw-bold">astro</span>`,
     `Integrated <span class="fw-bold">astro-icon</span>`,
     `Integrated <span class="fw-bold">tailwind css</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/curated-list-of-latest-trends",
+  liveDemoLink: "https://curated-list-of-latest-trends-grishaangelovs-projects.vercel.app/",
+} as Project

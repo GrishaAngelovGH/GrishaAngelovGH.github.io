@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "rtk-query-stock-app",
@@ -36,7 +36,7 @@ export default {
         "Visualization of real-time value change indicators to highlight stock price changes",
       ]
     }
-  ] as Feature[],
+  ],
   technologies: [
     `label:Backend`,
     `The server is based on <span class="fw-bold">NodeJS</span>`,
@@ -49,5 +49,6 @@ export default {
     `Integrated <span class="fw-bold">bootstrap</span>`,
     `Integrated <span class="fw-bold">react-redux</span>`,
     `Integrated <span class="fw-bold">@reduxjs/toolkit</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/rtk-query-stock-app",
+} as Project

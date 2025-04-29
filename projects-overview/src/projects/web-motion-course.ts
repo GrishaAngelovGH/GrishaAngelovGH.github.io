@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "web-motion-course",
@@ -41,12 +41,13 @@ export default {
     { content: "Mouse follow effect", items: [] },
     { content: "Scroll-triggered animation", items: [] },
     { content: "Parallax animation", items: [] }
-  ] as Feature[],
+  ],
   technologies: [
     `Used <span class="fw-bold">HTML</span>`,
     `Used <span class="fw-bold">CSS</span>`,
     `Used <span class="fw-bold">JavaScript</span>`,
     `Used <span class="fw-bold">Lottie</span>`,
     `Used <span class="fw-bold">GSAP</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/web-motion-course",
+} as Project

@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "kanban-board",
@@ -100,7 +100,7 @@ export default {
         `Press <kbd class="bg-primary">Ctrl</kbd> + <kbd class="bg-primary">L</kbd> to clear board`,
       ],
     },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -115,4 +115,6 @@ export default {
     `Integrated <span class="fw-bold">react-simple-wysiwyg</span>`,
     `Integrated <span class="fw-bold">hotkeys-js</span>`,
   ],
-}
+  gitHubLink: "https://github.com/GrishaAngelovGH/kanban-board",
+  liveDemoLink: "https://kanban-board-grishaangelovs-projects.vercel.app/",
+} as Project

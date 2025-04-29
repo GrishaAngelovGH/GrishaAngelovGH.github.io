@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "handwritten-digit-recognition",
@@ -14,7 +14,7 @@ export default {
   `,
   features: [
     { content: "Implemented handwritten digit recognition with tensorflow.js", items: [] },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -25,5 +25,7 @@ export default {
     `Integrated <span class="fw-bold">chart.js</span>`,
     `Integrated <span class="fw-bold">react-chartjs-2</span>`,
     `Integrated <span class="fw-bold">react-toastify</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/handwritten-digit-recognition",
+  liveDemoLink: "https://handwritten-digit-recognition-grishaangelovs-projects.vercel.app/",
+} as Project

@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "framer-motion-movie-catalog",
@@ -32,7 +32,7 @@ export default {
     { content: "Add combo products to shopping cart, manage quantities and remove items", items: [] },
     { content: "Browse available cinemas and preview movies scheduled to start at specific times", items: [] },
 
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -40,5 +40,7 @@ export default {
     `Integrated <span class="fw-bold">framer-motion</span>`,
     `Integrated <span class="fw-bold">fast-average-color</span>`,
     `Integrated <span class="fw-bold">react-responsive-carousel</span>`
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/framer-motion-movie-catalog",
+  liveDemoLink: "https://framer-motion-movie-catalog-grishaangelovs-projects.vercel.app/",
+} as Project

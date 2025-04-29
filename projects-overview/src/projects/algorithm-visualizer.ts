@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "algorithm-visualizer",
@@ -23,7 +23,7 @@ export default {
     { content: "Implemented Depth First Search Traversal Algorithm", items: [] },
     { content: "Implemented Caesar Cipher Algorithm", items: [] },
     { content: "Implemented Flood Fill Algorithm", items: [] }
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
@@ -33,5 +33,7 @@ export default {
     `Integrated <span class="fw-bold">rc-slider</span>`,
     `Integrated <span class="fw-bold">react-d3-tree</span>`,
     `Integrated <span class="fw-bold">react-pro-sidebar</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/algorithms",
+  liveDemoLink: "https://algorithms-grishaangelovs-projects.vercel.app/",
+} as Project

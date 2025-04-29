@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "pairs-and-tens-game",
@@ -18,11 +18,13 @@ export default {
       content: "Visualized an interactive grid, built to visually engage players as they select and match number pairs or combinations that sum up to 10, with dynamic feedback",
       items: []
     },
-  ] as Feature[],
+  ],
   technologies: [
     `Initial structure is created with <span class="fw-bold">vite</span>`,
     `Integrated <span class="fw-bold">ReactJS</span>`,
     `Integrated <span class="fw-bold">bootstrap</span>`,
     `Integrated <span class="fw-bold">react-confetti</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/pairs-and-tens-game",
+  liveDemoLink: "https://pairs-and-tens-game-grishaangelovs-projects.vercel.app/",
+} as Project

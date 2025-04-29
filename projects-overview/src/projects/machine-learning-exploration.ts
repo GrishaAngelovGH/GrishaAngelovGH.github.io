@@ -1,4 +1,4 @@
-import type { Feature } from "@data-types/feature"
+import type { Project } from "@data-types/project"
 
 export default {
   id: "machine-learning-exploration",
@@ -24,8 +24,9 @@ export default {
     { content: "Implemented Feature Scaling", items: [] },
     { content: "Implemented Principal Component Analysis", items: [] },
     { content: "Implemented Recommender Systems", items: [] }
-  ] as Feature[],
+  ],
   technologies: [
     `Used <span class="fw-bold">JavaScript</span>`,
-  ]
-}
+  ],
+  gitHubLink: "https://github.com/GrishaAngelovGH/machine-learning-exploration",
+} as Project
