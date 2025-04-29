@@ -24,6 +24,7 @@ import premierLeagueUi from "./premier-league-ui"
 import conversationIntelligence from "./conversation-intelligence"
 import responsiveLandingPages from "./responsive-landing-pages"
 import chartJsCarousel from "./chart-js-carousel"
+import designPatterns from "./design-patterns"
 
 export default [
   kanbanBoard,
@@ -51,5 +52,6 @@ export default [
   premierLeagueUi,
   conversationIntelligence,
   responsiveLandingPages,
-  chartJsCarousel
+  chartJsCarousel,
+  designPatterns
 ]
