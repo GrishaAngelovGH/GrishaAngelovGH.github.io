@@ -26,6 +26,7 @@ import responsiveLandingPages from "./responsive-landing-pages"
 import chartJsCarousel from "./chart-js-carousel"
 import designPatterns from "./design-patterns"
 import dataStructures from "./data-structures"
+import refactoringCodeKatas from "./refactoring-code-katas"
 
 export default [
   kanbanBoard,
@@ -55,5 +56,6 @@ export default [
   responsiveLandingPages,
   chartJsCarousel,
   designPatterns,
-  dataStructures
+  dataStructures,
+  refactoringCodeKatas
 ]
